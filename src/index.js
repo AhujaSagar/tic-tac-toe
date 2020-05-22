@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+const API_KEY = `${process.env.REACT_APP_API_KEY}`
 
 class Square extends React.Component {
  
